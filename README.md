@@ -1,2 +1,32 @@
-# car_protection_at_your_doorstep(CPAD)
-CPAD is a vehicle servicing network. By using this application/website users can book a slot for car servicing. Which reduces human efforts and increases efficiency. The simple concept behind the Mobile automotive CPAD service is the exploitation of idle parking time whereas house owners leave their cars to hold out alternative activities, like shopping, working, diverting, studying, etc. This application mostly saves time and human work free. Users can book the services at anytime and anywhere. This type of service is now growing very rapidly, and the booking system is used very easily and is more accessible. Now everywhere all are online services and just one click away. The CPAD app/website is allowed to book the slot for car service. By using this app/website customers can book the service at their flexible time. It’s a user-friendly application/website. In this application, customer data will store very securely. This application will be run on any automation compatible device.I have created this website using python programming language in which i have used flask module for my framework, it is used to create web framework with ease in python. For the web pages i have used html to create individual pages like the admin,customer,login,etc. I have used sql to manage database.
+# Customer Service Management System
+The Customer Service Management System is a web application developed using Flask and MySQL, designed to manage customer information, bookings, and administrative tasks. This system allows users to:
+
+Home Page:
+
+Provides an entry point to navigate to various functionalities of the application.
+Signup:
+
+Allows new customers to register by providing their name, contact details, email, address, car number, and package information. This data is stored in the MySQL database.
+Package Information:
+
+Displays information about available packages.
+Admin Login:
+
+Allows administrators to log in using their credentials. Successful login redirects to the user management page.
+User Management:
+
+View Users: List all registered customers.
+Edit User: Update customer information.
+Remove User: Delete customer records from the database.
+Search Users: Find specific customers based on their name.
+Booking Management:
+
+Book Slot: Allows customers to book a service slot by providing the slot date, slot time, and car number.
+View Bookings: Displays a list of all booked slots.
+Database Interaction:
+
+The application uses parameterized queries to prevent SQL injection and ensure data security.
+Error Handling and Flash Messages:
+
+Provides feedback to users with flash messages for errors and successful operations.
+This system aims to streamline customer service operations, making it easier to manage customer information, handle bookings, and provide an intuitive interface for both customers and administrators.
